@@ -4,11 +4,11 @@ block content
   h1= title
   p Welcome to #{title}
   div hi from #{name}
+  div
+  - console.log(posts)
+  div
   ul
   each val in posts
     li= val
   else
     li There are no values
-div
-- console.log(posts)
-div
