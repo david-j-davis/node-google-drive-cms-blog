@@ -5,7 +5,7 @@ const FirebaseREST = require('firebase-rest').default;
 var jsonClient = new FirebaseREST.JSONClient('https://node-heroku-blog.firebaseio.com/', { auth: '8OicTSxmbUQ0Da7wdWTN9dkJZDZOp3G865U6LxkH' });
 
 var blogData;
-
+//retreive blog data on homepage, pass it to variable
 jsonClient.get('/')
   .then(res => blogData = res.body.posts);
 
