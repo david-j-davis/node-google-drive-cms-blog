@@ -2,9 +2,9 @@ extends layout
 
 block content
   h1= title
-  div author: a(href='http://www.david-james-davis.com') #{name}
+  div author a(href='http://www.david-james-davis.com') #{name}
   div
-    h1 Blog Posts
+    h2 Blog Posts
       each item in posts
         div
         h3= item.title
