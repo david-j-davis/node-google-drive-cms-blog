@@ -7,7 +7,7 @@ var jsonClient = new FirebaseREST.JSONClient('https://node-heroku-blog.firebasei
 /* GET home page. */
 router.get('/', function (req, res, next) {
 
-    jsonClient.get('/').then(console.log);
+    jsonClient.get().then(console.log);
 
     // got('todomvc.com')
     //     .then(response => {
