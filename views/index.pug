@@ -2,8 +2,7 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
-  div author: #{name}
+  div author: a(href='http://www.david-james-davis.com') #{name}
   div
     h1 Blog Posts
       each item in posts

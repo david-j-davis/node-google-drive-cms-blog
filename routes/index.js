@@ -17,7 +17,7 @@ router.get('/', function (req, res, next) {
 },function(req, res) {
     //console.log(req.identifier);
     //console.log(req.somedata);
-    res.render('index', { title: 'Example Blog Using Google Drive CMS, Firebase, and a node/express backend', name: 'David', posts: blogData});
+    res.render('index', { title: 'Example Blog Using Google Drive CMS, Firebase, and a node/express backend', name: 'David Davis', posts: blogData});
 });
 
 module.exports = router;
