@@ -4,10 +4,12 @@ var got = require('got');
 const FirebaseREST = require('firebase-rest').default;
 var jsonClient = new FirebaseREST.JSONClient('https://node-heroku-blog.firebaseio.com/', { auth: '8OicTSxmbUQ0Da7wdWTN9dkJZDZOp3G865U6LxkH' });
 
+jsonClient.get('/').then(console.log);
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
 
-    jsonClient.get().then(console.log);
+
 
     // got('todomvc.com')
     //     .then(response => {
