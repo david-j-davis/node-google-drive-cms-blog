@@ -7,7 +7,7 @@ var jsonClient = new FirebaseREST.JSONClient('https://node-heroku-blog.firebasei
 var blogData;
 
 jsonClient.get('/')
-  .then(res => blogData = JSON.stringify(res.body));
+  .then(res => blogData = JSON.stringify(res.body.posts));
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
