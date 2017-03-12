@@ -4,7 +4,6 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var cors = require('cors');
 
 var routes = require('./routes/index');
 
@@ -24,15 +23,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.use(allowCrossDomain);
 
 app.use('/', routes);
-
-var corsOptions = {
-  origin: 'https://calm-eyrie-80092.herokuapp.com/api/blog/',
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-};
-
-app.get('/api/blog/', cors(corsOptions), function(req, res, next){
-  console.log(res);
-});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
