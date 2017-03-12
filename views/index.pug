@@ -5,7 +5,9 @@ block content
   p Welcome to #{title}
   div hi from #{name}
   ul
-  each val in {posts}
+  each val in posts
     li= val
   else
     li There are no values
+script.
+  console.log(!{JSON.stringify(posts)})
