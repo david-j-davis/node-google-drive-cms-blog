@@ -5,7 +5,7 @@ block content
   p Welcome to #{title}
   div hi from #{name}
   div
-  - console.log(posts)
+  - console.log(!{JSON.stringify(posts)})
   div
   ul
   each val in posts
