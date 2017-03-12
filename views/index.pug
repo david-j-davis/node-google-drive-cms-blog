@@ -4,7 +4,8 @@ block content
   h1= title
   p Welcome to #{title}
   div author: #{name}
-  each item in posts
-    div
-    h1= item.title
-    p= item.body
+  div Blog Posts
+      each item in posts
+        div
+        h1= item.title
+        p= item.body
