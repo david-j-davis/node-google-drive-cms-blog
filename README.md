@@ -5,4 +5,4 @@
 ### App git url: [https://git.heroku.com/calm-eyrie-80092.git](https://git.heroku.com/calm-eyrie-80092.git)
 
 ### TODO:
-- look at heroku error logs to see what's wrong when pinging the url
+- See why I cannot get the Google Drive CMS to work
