@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var got = require('got');
 const FirebaseREST = require('firebase-rest').default;
 var jsonClient = new FirebaseREST.JSONClient('https://node-heroku-blog.firebaseio.com/', { auth: '8OicTSxmbUQ0Da7wdWTN9dkJZDZOp3G865U6LxkH' });
 
