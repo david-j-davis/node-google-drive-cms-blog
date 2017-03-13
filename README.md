@@ -13,6 +13,13 @@ Open source projects used:
 * Pug
 * Bootstrap
 
+Notes
+-----------
+* Your google Drive CMS sheet should look something like this:
+![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+* When setting up Google Drive CMS, your CMS Configuration 'endpoint' setting should look something like this: ```https://your-app-name.firebaseio.com/posts.json?auth=80alsdkjfaslkLKJDLFKJDLDkjsldkfjss```
+* Retrieve your auth secret key inside your Firebase project at Settings (cog icon) > Project Settings > Service Account > Database Secrets
+
 Demo
 -----------
 [Blog Example]
