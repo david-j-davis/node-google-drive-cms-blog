@@ -33,12 +33,12 @@ block content
         div(class='row')
             div(class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1')
                 each item in posts
-                div(class='post-preview')
-                    h2(class='post-title')
-                        item.title
-                    h3(class='post-subtitle')
-                        item.body
-                    p(class='post-meta')
-                        Posted by a(href='#') #{name}
-                        //on item.date
-                hr
+                    div(class='post-preview')
+                        h2(class='post-title')
+                            item.title
+                        h3(class='post-subtitle')
+                            item.body
+                        p(class='post-meta')
+                            Posted by a(href='#') #{name}
+                            //on item.date
+                    hr
