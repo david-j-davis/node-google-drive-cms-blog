@@ -1,8 +1,22 @@
-# Project Details
+Google Drive CMS, Firebase database, and Node/Express.js Blog Example
+---
 
-### App name: calm-eyrie-80092
-### App url: [https://calm-eyrie-80092.herokuapp.com/](https://calm-eyrie-80092.herokuapp.com/)
-### App git url: [https://git.heroku.com/calm-eyrie-80092.git](https://git.heroku.com/calm-eyrie-80092.git)
+Tech
+-----------
 
-### TODO:
-- See why I cannot get the Google Drive CMS to work
+Open source projects used:
+
+* [Google Drive CMS]
+* Firebase database
+* Node.js
+* Express.js
+* Pug
+* Bootstrap
+
+Demo
+-----------
+[Blog Example]
+
+[Blog Example]:https://node-drive-blog.herokuapp.com/
+[David Davis]:http://david-james-davis.com
+[Google Drive CMS]:https://www.drivecms.xyz/
