@@ -1,2 +1,3 @@
 $ cat .gitattributes
-*.rb linguist-language=JavaScript
+routes/* linguist-documentation
+*.js linguist-language=JavaScript
