@@ -32,12 +32,13 @@ block content
     div(class='container')
         div(class='row')
             div(class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1')
-                each theblog in posts
+
+                each post in posts
                     div(class='post-preview')
                         h2(class='post-title')
-                            theblog.title
+                            {post.title}
                         h3(class='post-subtitle')
-                            theblog.body
+                            {post.body}
                         p(class='post-meta')
                             Posted by #{name}
                             //on item.date
